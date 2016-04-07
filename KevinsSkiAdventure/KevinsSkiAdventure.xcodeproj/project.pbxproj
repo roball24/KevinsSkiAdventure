@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA3BBF6C1CB2216400EC394C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3BBF6B1CB2216400EC394C /* Assets.xcassets */; };
+		EA53DB831CB1FF4E004AF669 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA53DB821CB1FF4E004AF669 /* AppDelegate.swift */; };
+		EA53DB851CB1FF4E004AF669 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EA53DB841CB1FF4E004AF669 /* GameScene.sks */; };
+		EA53DB871CB1FF4E004AF669 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA53DB861CB1FF4E004AF669 /* GameScene.swift */; };
+		EA53DB891CB1FF4E004AF669 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA53DB881CB1FF4E004AF669 /* GameViewController.swift */; };
+		EA53DB8C1CB1FF4E004AF669 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA53DB8A1CB1FF4E004AF669 /* Main.storyboard */; };
+		EA53DB911CB1FF4E004AF669 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA53DB8F1CB1FF4E004AF669 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA3BBF6B1CB2216400EC394C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA53DB7F1CB1FF4E004AF669 /* Ski Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ski Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA53DB821CB1FF4E004AF669 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA53DB841CB1FF4E004AF669 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		EA53DB861CB1FF4E004AF669 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EA53DB881CB1FF4E004AF669 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EA53DB8B1CB1FF4E004AF669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA53DB901CB1FF4E004AF669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA53DB921CB1FF4E004AF669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA53DB7C1CB1FF4D004AF669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA53DB761CB1FF4D004AF669 = {
+			isa = PBXGroup;
+			children = (
+				EA53DB811CB1FF4E004AF669 /* KevinsSkiAdventure */,
+				EA53DB801CB1FF4E004AF669 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA53DB801CB1FF4E004AF669 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA53DB7F1CB1FF4E004AF669 /* Ski Adventure.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA53DB811CB1FF4E004AF669 /* KevinsSkiAdventure */ = {
+			isa = PBXGroup;
+			children = (
+				EA53DB821CB1FF4E004AF669 /* AppDelegate.swift */,
+				EA53DB841CB1FF4E004AF669 /* GameScene.sks */,
+				EA53DB861CB1FF4E004AF669 /* GameScene.swift */,
+				EA53DB881CB1FF4E004AF669 /* GameViewController.swift */,
+				EA53DB8A1CB1FF4E004AF669 /* Main.storyboard */,
+				EA53DB8F1CB1FF4E004AF669 /* LaunchScreen.storyboard */,
+				EA3BBF6B1CB2216400EC394C /* Assets.xcassets */,
+				EA53DB921CB1FF4E004AF669 /* Info.plist */,
+			);
+			path = KevinsSkiAdventure;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA53DB7E1CB1FF4D004AF669 /* KevinsSkiAdventure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA53DB951CB1FF4E004AF669 /* Build configuration list for PBXNativeTarget "KevinsSkiAdventure" */;
+			buildPhases = (
+				EA53DB7B1CB1FF4D004AF669 /* Sources */,
+				EA53DB7C1CB1FF4D004AF669 /* Frameworks */,
+				EA53DB7D1CB1FF4D004AF669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KevinsSkiAdventure;
+			productName = KevinsSkiAdventure;
+			productReference = EA53DB7F1CB1FF4E004AF669 /* Ski Adventure.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA53DB771CB1FF4D004AF669 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Robert Allen";
+				TargetAttributes = {
+					EA53DB7E1CB1FF4D004AF669 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = EA53DB7A1CB1FF4D004AF669 /* Build configuration list for PBXProject "KevinsSkiAdventure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA53DB761CB1FF4D004AF669;
+			productRefGroup = EA53DB801CB1FF4E004AF669 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA53DB7E1CB1FF4D004AF669 /* KevinsSkiAdventure */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA53DB7D1CB1FF4D004AF669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA53DB851CB1FF4E004AF669 /* GameScene.sks in Resources */,
+				EA53DB911CB1FF4E004AF669 /* LaunchScreen.storyboard in Resources */,
+				EA3BBF6C1CB2216400EC394C /* Assets.xcassets in Resources */,
+				EA53DB8C1CB1FF4E004AF669 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA53DB7B1CB1FF4D004AF669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA53DB871CB1FF4E004AF669 /* GameScene.swift in Sources */,
+				EA53DB891CB1FF4E004AF669 /* GameViewController.swift in Sources */,
+				EA53DB831CB1FF4E004AF669 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA53DB8A1CB1FF4E004AF669 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA53DB8B1CB1FF4E004AF669 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA53DB8F1CB1FF4E004AF669 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA53DB901CB1FF4E004AF669 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA53DB931CB1FF4E004AF669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA53DB941CB1FF4E004AF669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA53DB961CB1FF4E004AF669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KevinsSkiAdventure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertallen.KevinsSkiAdventure;
+				PRODUCT_NAME = "Ski Adventure";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EA53DB971CB1FF4E004AF669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KevinsSkiAdventure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertallen.KevinsSkiAdventure;
+				PRODUCT_NAME = "Ski Adventure";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA53DB7A1CB1FF4D004AF669 /* Build configuration list for PBXProject "KevinsSkiAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA53DB931CB1FF4E004AF669 /* Debug */,
+				EA53DB941CB1FF4E004AF669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA53DB951CB1FF4E004AF669 /* Build configuration list for PBXNativeTarget "KevinsSkiAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA53DB961CB1FF4E004AF669 /* Debug */,
+				EA53DB971CB1FF4E004AF669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA53DB771CB1FF4D004AF669 /* Project object */;
+}
